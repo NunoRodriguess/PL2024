@@ -1,0 +1,27 @@
+Modalidades:
+Andebol
+Atletismo
+BTT
+Badminton
+Basquetebol
+Ciclismo
+Dança
+Equitação
+Esgrima
+Futebol
+Karaté
+Orientação
+Parapente
+Patinagem
+Triatlo
+
+Percentagens:
+Total de Atletas: 300
+Atletas aptos: 54.0%
+Atletas inaptos: 46.0%
+
+Escalões:
+[35-39]: 14
+[30-34]: 104
+[20-24]: 80
+[25-29]: 102
