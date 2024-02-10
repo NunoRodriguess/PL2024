@@ -6,4 +6,4 @@ A solução é simples: Primeiramente decidi utilizar 3 estruturas de dados: um 
 
 A nível de lógica, por linha, adiciono ao conjunto a modalidade (não permite repetições); caso o atleta esteja apto, conto um, caso não esteja, não conto (contando sempre um no total);Adiciono sempre mais um ao valor ao valor atual dependendo escalão do atleta.
 
-Finalmente, apenas é preciso converter o conjunto para lista e ordenar alfabéticamente; Calcular as percentagens da aprovação e finalmente mostrar o dicionário final.
+Finalmente, apenas é preciso converter o conjunto para lista e ordenar alfabéticamente, calcular as percentagens da aprovação e finalmente mostrar o dicionário final.
