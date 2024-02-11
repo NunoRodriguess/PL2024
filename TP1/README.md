@@ -1,4 +1,4 @@
-# Primeiro Parser
+# Análise de um Dataset
 Autor: Jorge Nuno Gomes Rodrigues,A101758<br />
 
 Primeiro programa desenvolvido a pedido da disciplina. Apenas realiza as estatísticas pedidas,mas decidi exprimentar usar uma abordagem de ficheiros, e uma abordagem que utiliza o stdin e stdout.<br />
