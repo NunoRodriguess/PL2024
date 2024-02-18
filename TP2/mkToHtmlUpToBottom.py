@@ -4,6 +4,7 @@ import re
 
 def process_line(line):
     
+    line = re.sub(r'^>(.*)$', r'</blockquote>\1</blockquote>', line) # por em quote
     line = re.sub(r'(### )(.*)',r'<h3>\2</h3>',line) # por em (h3)
     line = re.sub(r'(## )(.*)',r'<h2>\2</h2>',line) # por em (h2)
     line = re.sub(r'(# )(.*)',r'<h1>\2</h1>',line) # por em (h1)
@@ -16,6 +17,7 @@ def process_line(line):
     line = re.sub(r'.*\[(.*)\]\((.*)\)',r'<a href="\2">\1</a>',line) # por em url
     line = re.sub(r'``(.*)``', r'<code>\1</code>', line) # por em codigo quando é preciso os backticks
     line = re.sub(r'`(.*)`', r'<code>\1</code>', line) # por em codigo numa só linha
+    
     
     return line
 
