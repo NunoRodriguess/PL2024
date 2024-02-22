@@ -1,7 +1,9 @@
 <html>
 <h1>Markdown para HTML</h1>
 
-Autor: Jorge Nuno Gomes Rodrigues,A101758<br />
+Autor: Jorge Nuno Gomes Rodrigues,A101758
 
+O objetivo da minha solução foi utilizar ao máximo as expressões regulares lecionadas nesta semana. Primeiramente, certos elementos da semântica dos ficheiros <i>Markdown_ são muito facilmente convertivéis para _HTML_. Um exemplo é a questão de colocar em _itálico_ e em <b>negrito<i>*. Contudo, à uma questão muito importante que se repete para vários tipos, que é a repetição de caractéres. Desta forma, como para colocar em **negrito*</i>, utilizamos '</b>',e para colocar em _itálico</i> utilizamos o só um charcatér, é preciso ter em atenção a ordem como aplicamos estes filtros!
 
+A outra questão que foi preciso resolver foi o <i>Nesting</i> de alguns elementos como as listas. Para esse efeito, apenas criei um método que é invocado ao detetar uma lista, e que percorre a lista fazendo as substituições como têm que ser.
 </html>
