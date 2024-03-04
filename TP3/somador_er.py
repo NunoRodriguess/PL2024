@@ -1,7 +1,7 @@
 import sys
 import re
 
-current_state = 'OFF'
+current_state = 'ON'
 lista_numeros = []
 
 for line in sys.stdin:

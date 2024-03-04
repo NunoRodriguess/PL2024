@@ -1,0 +1,5 @@
+select id,nome,salario
+from empregados where salario >= 820;
+
+select id_produto
+from produto where preco < 2.50;
