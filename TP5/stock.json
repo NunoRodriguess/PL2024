@@ -1,0 +1,7 @@
+{ "stock" :[
+    {"cod": "A23", "nome": "água 0.5L", "quant": 8, "preco": 0.7},
+    {"cod": "A24", "nome": "pleno 0.5L", "quant": 10, "preco": 1.10},
+    {"cod": "B25", "nome": "bolo de chocolate", "quant": 6, "preco":0.8},
+    {"cod": "B26", "nome": "bolo de arroz", "quant": 0, "preco":0.5}
+]
+}
